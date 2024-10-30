@@ -20,7 +20,8 @@
       android:hardwareAccelerated="false"
       android:largeHeap="true"
       android:allowBackup="false"
-      android:theme="@style/AppTheme">
+      android:theme="@style/AppTheme"
+      android:supportsRtl="true">
 
   <service
       android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask"
